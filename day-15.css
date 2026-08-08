@@ -1,0 +1,92 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    background-color: orange;
+   nav{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    border: 5px solid whitesmoke;
+    color: aliceblue;
+    .head{
+        h1{
+    
+        font-size: 50px;
+        text-transform: capitalize;
+    }
+}
+.icon{
+    a{
+        font-size: 25px;
+        text-decoration: none;
+        text-transform: capitalize;
+        border: 5px solid green;
+        margin-left: 20px;
+    }
+}
+   
+.li{
+    a{
+        margin-left: 20px;
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+}
+   }
+   
+   main{
+    display:flex;
+    /* gap: 20px; */
+    /* padding: 20px; */
+    /* align-items: center; */
+    justify-content: space-evenly;
+    /* margin: 20px; */
+    background-color: aqua;
+       
+    .border{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        border-radius: 10px;     
+    h5{
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    h2{
+        font-size: 30px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    img {
+        width: 350px;
+        height: 400px;
+        /* background-color:darkblue; */
+    }
+    h3{
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: capitalize;
+
+    }
+    h4{
+        font-size: 20px;
+        
+    }
+   }
+}
+footer{
+    .p{
+        font-size: 20px;
+        font-family:'Times New Roman', Times, serif;
+        text-transform: capitalize;
+        text-align: justify;   
+        color: white;
+    }
+}
+}
