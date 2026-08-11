@@ -1,0 +1,155 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    nav{
+        padding-left: 400px;
+         display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 1px 10px 10px grey;
+        height: 60px;
+        text-transform: capitalize;
+
+        .h{ 
+            align-items: center;
+             display: flex;
+             gap: 20px;
+            a{  
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+            }
+        }
+        .icons{
+            padding-left: 50px;
+            display: flex;
+            gap: 10px;
+            i{
+                  color: black;
+                font-size: 20px;
+            }
+        }
+    }
+    .m{ color: darkblue;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        height: 100px;
+        a{
+            font-size: 50px;
+            color:blueviolet
+        }
+        h1{
+            font-size: 60px;
+            text-transform: capitalize;
+        }
+    }
+    .fea{ 
+       
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        a{
+             color: darkcyan;
+            text-decoration: none;
+            text-transform: capitalize;
+    
+            font-size: 20px;
+            
+        }
+    }
+    .main{
+
+    .cards{
+        display: flex;
+            /* align-items: center; */
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+            padding: 30px;
+
+        .car{
+            width: 400px;
+                padding: 10px;
+                height: 480px;
+                border-radius: 50px;
+                box-shadow: 1px 5px 5px gray;
+                border-radius: 10px;
+               
+            img{
+                width: 400px;
+                height: 300px;
+                border-radius: 10px;
+            }
+            h2{
+                padding: 10px;
+                text-decoration: none;
+                text-transform: capitalize;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serifs;
+            }
+            p{ 
+                text-align: justify;
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            a{
+                padding: 5px;
+                color: red;
+                font-size: 15px;
+                text-decoration: none;
+            }
+            footer{
+                border-top: 3px solid black;
+                display: flex;
+                gap: 30px;
+                h4{
+                    font-size: 15px;
+                }
+                li{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    }
+    .footer{
+        height: 200px;
+        background-color:blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .fu{
+            border-bottom: 3px solid white;
+        a{
+            display: flex;
+            justify-content: center;
+            font-size: 40px;
+            color: greenyellow;
+        }
+      h1{
+        text-transform: uppercase;
+        font-size: 50px;
+        padding-bottom: 10px;
+        /* border-bottom: 1px solid whitesmoke; */
+      }
+    }  
+      .li{
+        h2{
+            padding-top: 10px;
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+        }
+        a{
+            color: aliceblue;
+            font-size: 40px;
+            padding: 10px;
+        }
+      }
+    }
+}
